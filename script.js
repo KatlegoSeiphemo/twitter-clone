@@ -11,75 +11,77 @@ const colors = [
 ];
 
 const users = [
-  { name: 'Elon Musk', handle: 'elonmusk', verified: true, color: colors[0], initial: 'E', badge: 'gold' },
-  { name: 'Taylor Swift', handle: 'taylorswift13', verified: true, color: colors[7], initial: 'T', badge: 'blue' },
-  { name: 'NASA', handle: 'NASA', verified: true, color: colors[3], initial: 'N', badge: 'blue' },
-  { name: 'Andrej Karpathy', handle: 'karpathy', verified: true, color: colors[1], initial: 'A', badge: 'blue' },
-  { name: 'Sam Altman', handle: 'sama', verified: true, color: colors[5], initial: 'S', badge: 'blue' },
-  { name: 'Mark Zuckerberg', handle: 'zuck', verified: true, color: colors[0], initial: 'M', badge: 'blue' },
-  { name: 'Oprah Winfrey', handle: 'Oprah', verified: true, color: colors[4], initial: 'O', badge: 'blue' },
-  { name: 'Barack Obama', handle: 'BarackObama', verified: true, color: colors[3], initial: 'B', badge: 'blue' },
+  { name: 'Cyril Ramaphosa', handle: 'CyrilRamaphosa', verified: true, color: colors[3], initial: 'C', badge: 'gold' },
+  { name: 'Sho Madjozi', handle: 'ShoMadjozi', verified: true, color: colors[7], initial: 'S', badge: 'blue' },
+  { name: 'SABC News', handle: 'SABCNews', verified: true, color: colors[0], initial: 'S', badge: 'blue' },
+  { name: 'Trevor Noah', handle: 'TrevorNoah', verified: true, color: colors[1], initial: 'T', badge: 'blue' },
+  { name: 'Bonang Matheba', handle: 'bonang_m', verified: true, color: colors[4], initial: 'B', badge: 'blue' },
+  { name: 'Cassper Nyovest', handle: 'casspernyovest', verified: true, color: colors[2], initial: 'C', badge: 'blue' },
+  { name: 'Eusebius McKaiser', handle: 'Eusebius', verified: true, color: colors[5], initial: 'E', badge: 'blue' },
+  { name: 'Nandi Madida', handle: 'NandiMadida', verified: true, color: colors[6], initial: 'N', badge: 'blue' },
 ];
 
 const tweetsData = [
   {
     id: 1, user: users[3],
-    text: 'The transformer architecture turned 7 years old this week. What a run it has been 🤯\n\nFew could have imagined in 2017 that "attention is all you need" would reshape... basically everything.',
+    text: 'South Africa has so much talent it\'s unreal. 🇿🇦\n\nWe just need the systems, the funding, and the belief to match it. The potential here is world-class.',
     time: '2h', likes: 48200, retweets: 6100, replies: 892, views: 2400000,
     liked: false, retweeted: false, bookmarked: false
   },
   {
     id: 2, user: users[2],
-    text: '🌌 Stunning new images from the James Webb Space Telescope reveal galaxies forming just 300 million years after the Big Bang.\n\nThe universe is older, bigger, and more beautiful than we imagined.',
-    time: '4h', likes: 124500, retweets: 31200, replies: 3420, views: 8900000,
+    text: '🚨 BREAKING: Eskom confirms Stage 2 loadshedding will be implemented from 5pm today until further notice.\n\nResidents are advised to check the EskomSePush app for their schedules.',
+    time: '4h', likes: 12400, retweets: 8900, replies: 3420, views: 4900000,
     liked: false, retweeted: false, bookmarked: false,
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/1200px-Crab_Nebula.jpg'
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/1200px-All_Gizah_Pyramids.jpg'
   },
   {
     id: 3, user: users[4],
-    text: 'AGI is closer than most people think.\n\nThe question isn\'t whether we\'ll get there — it\'s whether we\'ll be ready when we do.',
+    text: 'Can we normalise women owning businesses, sitting on boards, AND being glamorous? You don\'t have to choose between ambition and femininity. 💅🏽\n\n#WomenInBusiness #SouthAfrica',
     time: '5h', likes: 29800, retweets: 5200, replies: 4100, views: 1800000,
     liked: false, retweeted: false, bookmarked: false
   },
   {
     id: 4, user: users[1],
-    text: 'Just dropped my new album 🩵✨ 13 tracks, 13 surprises. Thank you for 13 years of support. I love you all so much it\'s insane.',
-    time: '6h', likes: 892000, retweets: 124000, replies: 48200, views: 42000000,
+    text: 'New music dropping this Friday 🎵🇿🇦 This one is for the villages, the townships, and everyone who told us African music couldn\'t go global.\n\nWe proved them wrong. Repeatedly. 🔥 #AfroBeats #Gqom',
+    time: '6h', likes: 89200, retweets: 24000, replies: 8200, views: 12000000,
     liked: false, retweeted: false, bookmarked: false
   },
   {
     id: 5, user: users[0],
-    text: 'X is the everything app.',
-    time: '8h', likes: 61200, retweets: 9800, replies: 22400, views: 12000000,
+    text: 'South Africa remains committed to building a capable, ethical, and developmental state.\n\nWe will not rest until every citizen has access to water, electricity, and dignity. 🇿🇦',
+    time: '8h', likes: 21200, retweets: 4800, replies: 12400, views: 3200000,
     liked: false, retweeted: false, bookmarked: false
   },
   {
-    id: 6, user: users[7],
-    text: 'Climate change is real, it\'s a threat to our future, and our kids deserve a livable planet. The science is clear — now we need the action to match.',
-    time: '10h', likes: 187000, retweets: 42000, replies: 8900, views: 15000000,
+    id: 6, user: users[6],
+    text: 'The DA\'s proposal makes no logical sense when you actually read the policy document.\n\nI\'ve broken it down point by point in this thread. Buckle up. 🧵👇\n\n#SouthAfricanPolitics',
+    time: '10h', likes: 18700, retweets: 9200, replies: 6900, views: 2500000,
     liked: false, retweeted: false, bookmarked: false
   },
   {
     id: 7, user: users[5],
-    text: 'We\'re adding AI to glasses, Ray-Ban Meta smart glasses now let you ask questions about what you\'re looking at in real time. The future is wearable 👓',
+    text: 'Joburg to Cape Town road trip hits different in winter ❄️🚗\n\nThe N1 through the Karoo at sunset is one of the most beautiful things you\'ll ever see in your life. No cap.\n\n#SouthAfrica #Travel',
     time: '12h', likes: 32100, retweets: 7800, replies: 2400, views: 4200000,
     liked: false, retweeted: false, bookmarked: false
   },
   {
-    id: 8, user: users[6],
-    text: 'Your life is speaking to you. Are you listening? ✨\n\nThe dream in your heart is not an accident — it was put there for a reason.',
-    time: '14h', likes: 218000, retweets: 58000, replies: 6200, views: 18000000,
+    id: 8, user: users[7],
+    text: 'Representation matters SO much. 🙏🏽\n\nSeeing Black South African women on international stages, in boardrooms, on screens — it changes what little girls believe is possible for themselves.\n\n#ProudlySouthAfrican',
+    time: '14h', likes: 54800, retweets: 18000, replies: 3200, views: 8800000,
     liked: false, retweeted: false, bookmarked: false
   },
 ];
 
 const trendsData = [
-  { category: 'Trending in Tech', name: '#AI', count: '284K posts' },
-  { category: 'Trending worldwide', name: '#WorldCup2026', count: '1.2M posts' },
-  { category: 'Trending in South Africa', name: '#Loadshedding', count: '45.6K posts' },
-  { category: 'Entertainment · Trending', name: 'Taylor Swift', count: '892K posts' },
-  { category: 'Trending in Tech', name: '#Claude', count: '18.4K posts' },
-  { category: 'Trending', name: '#WebDev', count: '62K posts' },
+  { category: 'Trending in South Africa', name: '#Loadshedding', count: '124K posts' },
+  { category: 'Trending in South Africa', name: '#Bafana', count: '89.2K posts' },
+  { category: 'Politics · Trending', name: '#SONA2026', count: '76.4K posts' },
+  { category: 'Entertainment · Trending', name: 'Sho Madjozi', count: '54K posts' },
+  { category: 'Trending in South Africa', name: '#EskomSePush', count: '41.6K posts' },
+  { category: 'Trending', name: '#WomenInTech', count: '38K posts' },
+  { category: 'Trending in South Africa', name: '#MzansiMagic', count: '29K posts' },
+  { category: 'Sports · Trending', name: 'Springboks', count: '212K posts' },
 ];
 
 const followData = [
@@ -91,35 +93,35 @@ const followData = [
 const notifData = [
   {
     type: 'like', icon: '❤️', iconColor: '#f4212e',
-    text: '<strong>@nasa</strong> and 42 others liked your post',
-    preview: 'Just finished building my Twitter clone 🚀',
-    avatars: [users[2], users[3], users[4]]
+    text: '<strong>@bonang_m</strong> and 38 others liked your post',
+    preview: 'Women in tech are building the future of South Africa 🇿🇦💻',
+    avatars: [users[4], users[1], users[7]]
   },
   {
     type: 'retweet', icon: '🔁', iconColor: '#00ba7c',
-    text: '<strong>@karpathy</strong> reposted your post',
-    preview: 'The transformer architecture is incredible',
+    text: '<strong>@TrevorNoah</strong> reposted your post',
+    preview: 'Mzansi deserves better infrastructure and faster WiFi 😤',
     avatars: [users[3]]
   },
   {
     type: 'follow', icon: '👤', iconColor: '#1d9bf0',
-    text: '<strong>@sama</strong> and 5 others followed you',
+    text: '<strong>@ShoMadjozi</strong> and 12 others followed you',
     preview: null,
-    avatars: [users[4], users[5], users[6]]
+    avatars: [users[1], users[7], users[4]]
   },
   {
     type: 'mention', icon: '💬', iconColor: '#1d9bf0',
-    text: '<strong>@elonmusk</strong> mentioned you in a post',
-    preview: 'Great work on the Twitter clone!',
-    avatars: [users[0]]
+    text: '<strong>@casspernyovest</strong> mentioned you in a post',
+    preview: 'Shout out to all the women in tech doing big things! 🙌🏽',
+    avatars: [users[5]]
   },
 ];
 
 const msgData = [
-  { user: users[3], preview: "Hey! Loved your thread on neural nets", time: "2m", unread: true },
-  { user: users[2], preview: "The Webb images are incredible right?", time: "1h", unread: false },
-  { user: users[4], preview: "What do you think about AGI timelines?", time: "3h", unread: true },
-  { user: users[7], preview: "Thanks for the support 🙏", time: "1d", unread: false },
+  { user: users[3], preview: "Sisi! Loved your thread on women in tech 🔥", time: "2m", unread: true },
+  { user: users[4], preview: "We should collab on that WiT event in Joburg!", time: "1h", unread: false },
+  { user: users[1], preview: "Yoh the loadshedding last night was hectic 😩", time: "3h", unread: true },
+  { user: users[7], preview: "Thank you for the support sisi 🙏🏽", time: "1d", unread: false },
 ];
 
 // ===== STATE =====
@@ -315,7 +317,7 @@ function postTweet() {
   
   const newTweet = {
     id: Date.now(),
-    user: { name: 'Your Name', handle: 'yourhandle', verified: true, color: colors[5], initial: 'Y', badge: 'blue' },
+    user: { name: 'Katlego Seiphemo', handle: 'katlego_s', verified: true, color: colors[5], initial: 'K', badge: 'blue' },
     text: text,
     time: 'now',
     likes: 0, retweets: 0, replies: 0, views: 1,
@@ -337,7 +339,7 @@ function postFromModal() {
   
   const newTweet = {
     id: Date.now(),
-    user: { name: 'Your Name', handle: 'yourhandle', verified: true, color: colors[5], initial: 'Y', badge: 'blue' },
+    user: { name: 'Katlego Seiphemo', handle: 'katlego_s', verified: true, color: colors[5], initial: 'K', badge: 'blue' },
     text: text,
     time: 'now',
     likes: 0, retweets: 0, replies: 0, views: 1,
